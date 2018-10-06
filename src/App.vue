@@ -8,6 +8,7 @@
             <router-link to="/demo3">Demo3 - 模板语法</router-link> |
             <router-link to="/demo4">Demo4 - 计算属性</router-link> |
             <router-link to="/demo5">Demo5 - Class与style绑定</router-link> |
+            <router-link to="/demo6">Demo6 - 条件渲染</router-link> |
             <router-link to="/test1">练习 - 1</router-link>
         </div>
         <router-view />

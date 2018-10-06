@@ -8,13 +8,13 @@
         <div v-bind:class="{'active': isActive, 'text-danger': hasError}">
             class
         </div>
-        <button @click="change()">切换为错误</button>
+        <button @click="change">切换为错误</button>
 
         <h4>第二种</h4>
         <div :class="classObject">
             class - 2
         </div>
-        <button @click="change2()">切换为错误</button>
+        <button @click="change2">切换为错误</button>
 
         <!-- .... -->
 		<div>-----------Style 绑定-------------</div>
@@ -63,10 +63,10 @@
         },
 
         methods: {
-            change() {
+            change(e) {
                 this.hasError? this.hasError = false : this.hasError = true;
             },
-            change2() {
+            change2(e) {
                 this.classObject['text-danger']? this.classObject['text-danger'] = false : this.classObject['text-danger'] = true;
             }
         },

@@ -10,7 +10,7 @@
         <div>computed: {{aDouble}}</div>
 
         <h3>--------------------------</h3>
-        <div @click="say('hi')">点击</div>
+        <div @click="say">点击</div>
     </div>
 </template>
 
@@ -36,8 +36,8 @@
 
         // 存放事件函数
         methods: {
-            say(h) {
-                alert(h);
+            say(e) {
+                alert('hi');
             }
         }
     }
