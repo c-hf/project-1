@@ -6,7 +6,6 @@
         <solts>
             <div>123</div>
             <p>456</p>
-
             <p slot="bottom">66666</p>
         </solts>
     </div>
